@@ -1,0 +1,14 @@
+interface:
+  display_name: Generador de habilidades de marca
+  short_description: Crea habilidades con identidad visual de cada marca
+  default_prompt: Usá $generador-de-habilidades-de-marca para crear una habilidad
+    de marca desde mi logo, web, flyer o idea.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
